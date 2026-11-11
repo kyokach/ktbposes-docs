@@ -46,7 +46,6 @@
 
 ## 旧版から移行するとき
 
-KTBPoses の旧版（`KTBPoses.prefab` をアバターに置く版）が入っているアバターに導入すると、確かめたあとで旧版を外して置き換えます。
-パラメーターの名前が同じなので、両方は入れられません。
+KTBPoses の旧版（`KTBPoses.prefab` をアバターに置く版）が入っているアバターに導入すると、確かめたあとで旧版を外して置き換えます。パラメーターの名前が同じなので、両方は入れられません。
 
 旧版のファイル（`Assets/KyokaToyBox/KTBPoses` の `KTBPoses.prefab`・`KTBPoses_Action.controller`・`Icons`）は、今の版では使いません。旧版を置いているアバターが無ければ消せます。

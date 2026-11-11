@@ -1,8 +1,6 @@
 # KTBPoses
 
-KTBPoses は、VRChat のアバターにポーズ集を入れるための Unity のツールです。
-ポーズのアニメーションを集めて Expression Menu を組み立て、ボタン 1 つでアバターに導入できます。
-VRChat の中でメニューからポーズを選ぶと、全身がそのポーズになります。
+KTBPoses は、VRChat のアバターにポーズ集を入れるための Unity のツールです。ポーズのアニメーションを集めて Expression Menu を組み立て、ボタン 1 つでアバターに導入できます。VRChat の中でメニューからポーズを選ぶと、全身がそのポーズになります。
 
 <div class="pose-strip" markdown>
 ![横ピース](images/poses/01_SidePeace.png)
