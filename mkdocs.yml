@@ -1,0 +1,79 @@
+# KTBPoses マニュアル（GitHub Pages）。.github/workflows/docs.yml が組み立てて公開する
+# 手元で見るとき：pip install -r requirements.txt のあと mkdocs serve
+site_name: KTBPoses
+site_url: https://kyokach.github.io/ktbposes-docs/
+site_description: VRChat アバター向けのポーズ集ツール KTBPoses のマニュアル
+copyright: Copyright &copy; 2026 kyokach
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.highlight
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: ダークモードにする
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードにする
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang:
+        - ja
+        - en
+
+nav:
+  - ホーム: index.md
+  - はじめに:
+      - インストール: install.md
+      - はじめかた: quickstart.md
+  - ツールの使い方:
+      - 画面の見かた: window.md
+      - ポーズ集を作る: pose-sets.md
+      - アニメーションを追加する: library.md
+      - アバターに導入する: install-avatar.md
+  - VRChat での使い方: in-vrchat.md
+  - 同梱のポーズ: poses.md
+  - 詳しく:
+      - パラメーター: parameters.md
+      - 仕組み: how-it-works.md
+      - 困ったとき: troubleshooting.md
+      - 更新履歴: changelog.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      # 日本語の見出しから、そのままのアンカーを作る（既定では空になり、_1, _2 … になる）
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

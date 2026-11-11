@@ -1,0 +1,85 @@
+/* ツールの画面のスクリーンショット */
+.md-typeset img.screenshot {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  box-shadow: var(--md-shadow-z1);
+}
+
+/* ポーズの画像。形と陰影だけの明るい画像なので、ライト・ダークどちらでも暗い板の上に置く */
+.md-typeset .pose-strip img,
+.md-typeset .pose-grid img,
+.md-typeset .mirror-demo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  background: #263238;
+  border-radius: 10px;
+}
+
+/* トップの横並び */
+.md-typeset .pose-strip {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: .6rem;
+  margin: 1.4em 0;
+}
+.md-typeset .pose-strip p {
+  display: contents;
+}
+
+/* 同梱のポーズの一覧 */
+.md-typeset .pose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 1.2rem 1rem;
+  margin: 1em 0 2em;
+}
+.md-typeset .pose-grid figure,
+.md-typeset .mirror-demo figure {
+  display: block;
+  width: auto;
+  max-width: none;
+  margin: 0;
+}
+.md-typeset .pose-grid figcaption {
+  max-width: none;
+  margin: .5em 0 0;
+  font-size: .68rem;
+  line-height: 1.5;
+  text-align: left;
+  font-style: normal;
+}
+.md-typeset .pose-grid figcaption strong {
+  display: block;
+  margin-bottom: .1em;
+  font-size: .8rem;
+}
+
+/* 左右反転の例 */
+.md-typeset .mirror-demo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 11rem));
+  gap: 1rem;
+  margin: 1em 0;
+}
+.md-typeset .mirror-demo figcaption {
+  margin: .4em 0 0;
+  text-align: center;
+  font-style: normal;
+}
+.md-typeset img.flip {
+  transform: scaleX(-1);
+}
+
+/* Expression Menu のアイコン */
+.md-typeset img.menu-icon {
+  width: 2.6rem;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .pose-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
