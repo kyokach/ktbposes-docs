@@ -6,20 +6,20 @@ KTBPoses は、VRChat のアバターにポーズ集を入れるための Unity 
 ![横ピース](images/poses/01_SidePeace.png)
 ![頭上ハート](images/poses/06_HeadHeart.png)
 ![うさみみ](images/poses/18_BunnyEars.png)
-![スカートつまみ](images/poses/07_SkirtPinch.png)
-![やったー](images/poses/24_Yay.png)
-![女の子座り](images/poses/26_FloorSit.png)
+![自撮り](images/poses/69_Selfie.png)
+![アラベスク](images/poses/84_Arabesque.png)
+![横座り](images/poses/92_SideSit.png)
 </div>
 
 ## できること
 
 <div class="grid cards" markdown>
 
--   :material-human-handsup:{ .lg .middle } **26 種類のポーズを同梱**
+-   :material-human-handsup:{ .lg .middle } **100 種類のポーズを同梱**
 
     ---
 
-    横ピース、指ハート、うさみみ、女の子座りなど。入れてすぐに使えるポーズ集が付いています。
+    横ピース、指ハート、うさみみ、自撮り、アラベスク、正座など。6 つのカテゴリに分かれた、入れてすぐに使えるポーズ集が付いています。
 
     [:octicons-arrow-right-24: 同梱のポーズ](poses.md)
 
@@ -72,4 +72,4 @@ KTBPoses は、VRChat のアバターにポーズ集を入れるための Unity 
 3. 自分好みにする：[ポーズ集を作る](pose-sets.md)、[アニメーションを追加する](library.md)
 
 !!! note "このマニュアルについて"
-    KTBPoses 2.0 に対応しています。ポーズの画像は、ポーズの形が分かりやすいように、形と陰影だけで表示しています。
+    KTBPoses 2.1 に対応しています。ポーズの画像は、ポーズの形が分かりやすいように、形と陰影だけで表示しています。
