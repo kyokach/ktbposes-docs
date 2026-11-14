@@ -295,7 +295,7 @@ KTBPoses には、100 種類のポーズが入っています。最初に開い�
 </figure>
 <figure markdown="span">
   ![指カメラ](images/poses/70_FingerFrame.png)
-  <figcaption><strong>指カメラ</strong>両手の L の指先を合わせて、目の前に写真の枠を作る</figcaption>
+  <figcaption><strong>指カメラ</strong>両手の L の指先を合わせて、目の前に長方形の枠を作る</figcaption>
 </figure>
 <figure markdown="span">
   ![わかんない](images/poses/71_Shrug.png)
