@@ -36,7 +36,7 @@ KTBPoses には、100 種類のポーズが入っています。最初に開い�
 </figure>
 <figure markdown="span">
   ![あごピース](images/poses/27_ChinPeace.png)
-  <figcaption><strong>あごピース</strong>あごの下でピース。もう片方の手でひじを支える</figcaption>
+  <figcaption><strong>あごピース</strong>あごに添えてピース。もう片方の手でひじを支える</figcaption>
 </figure>
 <figure markdown="span">
   ![目元ピース](images/poses/28_EyePeace.png)
@@ -295,7 +295,7 @@ KTBPoses には、100 種類のポーズが入っています。最初に開い�
 </figure>
 <figure markdown="span">
   ![指カメラ](images/poses/70_FingerFrame.png)
-  <figcaption><strong>指カメラ</strong>両手の L で、顔の前に写真の枠を作る</figcaption>
+  <figcaption><strong>指カメラ</strong>両手の L の指先を合わせて、目の前に写真の枠を作る</figcaption>
 </figure>
 <figure markdown="span">
   ![わかんない](images/poses/71_Shrug.png)
@@ -344,7 +344,7 @@ KTBPoses には、100 種類のポーズが入っています。最初に開い�
 </figure>
 <figure markdown="span">
   ![ひざに手](images/poses/81_HandsOnKnees.png)
-  <figcaption><strong>ひざに手</strong>ひざに手をついて前かがみ、上目づかい</figcaption>
+  <figcaption><strong>ひざに手</strong>ひざを曲げて手をひざにのせ、軽く前かがみで上目づかい</figcaption>
 </figure>
 <figure markdown="span">
   ![スキップ](images/poses/82_Skip.png)
